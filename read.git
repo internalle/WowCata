@@ -1,0 +1,119 @@
+//ja pokazuva verzijata
+git --version 
+-----------------------------------------------------
+//kako ke se indencivicirash za samiot git
+git config --global user.name "Imenekoie"
+
+-----------------------------------------------------
+//kako ke se indencivicirash ako koristis GITHUB
+git config --global github.user "myusername"
+
+-----------------------------------------------------
+//tie sto se konektiraat bez SSH key treba da stavat
+//i password i tokken koj im e daden
+//se koristi za konektiranje na GITHUB no ne na google
+git config --global github.user username
+git config --global github.token iUBSgVjRzaZOnwqn
+
+-----------------------------------------------------
+//upaluva highlght na syntaxata
+git config -global color.ui true
+
+-----------------------------------------------------
+//za da se napravi repo treba da ideme do folderot koj treba da
+//bide repo i potoa da go piseme git INIT
+git init "PATH AKO TREBA"
+
+-----------------------------------------------------
+
+//za da se vidi status na repozitoriajta
+git status
+-----------------------------------------------------
+//se kreira nov folder u fajl
+touch imenafajlot.extenzija
+
+-----------------------------------------------------
+//da se stavi fajl za TRACKING u repo se pisuva
+git add <FAJL>
+
+-----------------------------------------------------
+//commit message - izvrshna poraka -m znaci message
+git commit -m "Inital Commit"
+
+
+-----------------------------------------------------
+//istorija na repositorija
+git log
+
+-----------------------------------------------------
+//se kopira repository od itternet
+got clone <URL>
+
+-----------------------------------------------------
+//koga se stavaat novi fajlovi da se naprai COMMIT
+// na site fajlovi so pomos na -a
+git commit -a
+
+-----------------------------------------------------
+//ako sakame da praime commit na poveke od eden fajl
+//predhodno morame da resetirame so funkcijata, a potoa
+//moze kako normalno da se pis git commit <FILENAME>
+//i da se editiraat potrebnite raboti
+git reset HEAD~
+
+-----------------------------------------------------
+//za da se GENERIRA SSH KEY koj ke se koristi
+//za konektiranje do repository treba da se kuca
+ssh-keygen -t rsa -C "internalle@gmail.com"
+
+
+-----------------------------------------------------
+//koga sme napravile SSH key so slednata funkcija
+//moze istiot da se kopira bez da se ide racno
+//da se pravi toa vo SSH fajlovite
+cat ~/.ssh/id_rsa.pub | pbcopy
+
+-----------------------------------------------------
+//za da se konektirame do serverot kaj sto e GIT reposi
+ssh <URL>
+
+-----------------------------------------------------
+//da se poglednat drugi useri
+cat ~/.gitconfig
+
+-----------------------------------------------------
+//pravenje na nov BRANCH
+git checkout -b <IMENABRANCJ>
+
+-----------------------------------------------------
+//google diff e komanda za gledanje na promenite
+git diff
+
+-----------------------------------------------------
+//za da gi stavime promenite od drug BRANCH u master
+//branch prvo treba da ideme do MASTER branchot so koman
+//data git checkout
+git checkout master
+
+-----------------------------------------------------
+//a za da gi spoime dvete e komandata
+git merge <soKojaSpojuvame>
+
+-----------------------------------------------------
+//za da go stavime folderot na repository
+git remote add origin code.google.com:USERNAME/IMENAPROEKT.git
+
+-----------------------------------------------------
+//za da napraime PUSH na MASTER grankata-branch
+git push origin master
+
+
+
+
+
+
+
+
+
+
+

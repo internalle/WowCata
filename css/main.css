@@ -1,0 +1,246 @@
+
+/* ===== global styles ===== */
+
+body {
+    font-family: sans-serif;
+    background: #000 url(../images/site_background.png) fixed;
+    margin: 0;
+    padding: 0;
+	width: auto;
+	height: auto;
+	background-repeat: repeat-x;
+	
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+    margin: 1ex 1em;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tr, td {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+/* ===== outer table ===== */
+
+#outerTable {
+    margin: 0 auto;
+    width: 920px;
+    background: url(../images/header.png)  no-repeat;
+	border: 1px solid #333;
+	
+}
+
+/* ===== contact button ===== */
+
+td#contactButton {
+    height: 120px;
+}
+
+/* ===== tuka HEIGHT e visocinata na CONTACT BUTTONOT ===== */
+/* ===== MARGIN e 0 0 0  - TOP - RIGHT - BOTTOM - LEFT - ZNACI kaj left ima vrednost  e 834pix NA LEVO ===== */
+
+#contactButton div {
+    height: 30px;
+	/* top - right - bottom - left */
+    margin: 0 0 0 834px;
+    padding: 0;
+	
+}
+
+#contactButton img {
+    margin: 0;
+    border: 0;
+	
+}
+
+/* ===== MENU ===== */
+td#mainMenu {
+	height: 119px;
+	vertical-align: bottom;
+	align: left;
+    
+}
+
+#mainMenu div {
+	height: 30px;
+	margin-left: 425px;
+	padding: 0;
+	}
+#mainMenu img {
+	margin: 0 0;
+	padding: 0;
+	border: 0;
+	}
+	
+td#spacing{
+	
+	border-top: 1px solid #333;
+	width: 920px;
+	height: 15px;
+	background-color: #480000;
+	padding: 0;
+	margin: 0;
+	
+	}
+	
+
+/* ===== main content (left column) ===== */
+
+td#contentLeft {
+    background-color: #480000   ;
+     width: 650px;
+}
+
+div#mainContent {
+    padding: 3px 15px;
+    margin: 0;
+}
+
+#mainContent p {
+    font-family: Georgia, serif;
+    font-size: .9em;
+    line-height: 1.4em;
+    margin-left: 0;
+	color: #FFF;
+	font-style: italic;
+	text-align:justify;
+}
+
+
+
+#mainContent h1, #mainContent h3, #mainContent h4 {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#mainContent h2{
+	font-family: helvetica;
+	color:#F99;
+	font-style:oblique;
+	}
+
+#mainContent ul,li{
+	color:#F66;
+	font-size:19px;
+	font-style: italic;
+	}
+div#image {
+	height: 250px;
+	
+	
+	}	
+#mainContent img{
+	margin: 5px;
+	border:dashed;
+	border-color:#F99;
+	padding: 1px;
+	border-width: 2px;
+	
+	}
+#mainContent h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #F93;
+    margin: 0 0 .4em 0;
+	font-style: italic;
+}
+
+
+#tolBar img {
+	
+	margin-left: 20px;
+	margin-bottom: 10px;
+	}
+	
+#tolBarad { 
+    
+	padding: 15px;
+
+}
+
+div#pictures {
+	border: 0px hidden;
+	margin: 0;
+	padding: 0;
+	
+	}
+	
+#pictures img{
+	border: 0px hidden;
+	padding: 5px;
+	margin-left: 20px;
+	}
+
+p#mainElf {
+	/* top - right - bottom - left */
+	 
+	 margin-bottom: 2em;
+	 margin-right: 3.5em;
+	
+	}
+/* ===== sidebar (right column) ===== */
+
+td#contentRight {
+    background-color: #480000;
+    width: 370px;
+	
+}
+
+div#sideBar {
+    padding: 3px 15px;
+    margin: 0;
+    border-left: 1px solid #999;
+	
+	
+}
+
+#contentRight p {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .8em;
+    line-height: 1.2em;
+    color: #CCC;
+    margin: 0 0 30px 0;
+	margin-right: 10px;
+	text-align: left;
+	border-bottom: 1px solid #999;
+	padding-bottom: 30px;
+	
+}
+
+#contentRight h3 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    color: #F93; 
+    margin: 1ex 0 .5ex 0;
+ }
+ 
+ /* ===== footer ===== */
+
+p#footer {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .75em;
+    color: #fff;
+    text-align: center;
+}
+
+#footer a {
+    color: #FC9;
+    text-decoration: none;
+}
+
+ /* ===== videos ===== */
+ 
+ div#youtobeVid {
+	 /* top - right - bottom - left */
+	 
+	 margin: 0 0 2em 5.5em;
+	
+	 }
